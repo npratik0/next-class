@@ -1,7 +1,10 @@
-export default function Page() {
+import LoginForm from "../_components/login-form";
+
+export default function Login() {
     return (
         <div>
             Login page
+            <LoginForm/>
         </div>
     );
 }
