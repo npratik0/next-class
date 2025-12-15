@@ -1,12 +1,9 @@
 export default function Layout({children}: {children: React.ReactNode}) {
     return (
         <section>
-            Example Layout
+            Mero Logo
             {children}
-            Example Footer
+            Footer@2025
         </section>
     );
 }
-
-// Make the following route path
-// /practice/user

@@ -9,4 +9,4 @@ export default async function Page({
             Example Test ID: {id}
         </div>
     );
-}
+}   
