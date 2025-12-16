@@ -12,9 +12,9 @@ export default function Page() {
         <div>
             <div>
                 <label htmlFor="">Email:</label>
-                <input type="email" value={email} onChange={handleEmail} className="border"/>
+                <input type="email" value={email} onChange={handleEmail} className="border m-2"/>
             </div>
-            <button className="border p-2 m-2 bg-green-500 " onClick={() => alert("Email: "+ email)}>Test</button>
+            <button className="border p-2 m-2 w-15 rounded-2xl bg-green-500 " onClick={() => alert("Email: "+ email)}>Test</button>
         </div>
     );
 }
