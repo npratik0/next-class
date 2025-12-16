@@ -22,4 +22,8 @@ export const useLoginPage = () => {
         alert("Login with "+ email+" "+ password);
         //call api later
     }
+
+    return {
+        email,password, handleEmail, handlePassword, handleSubmit
+    }
 }
