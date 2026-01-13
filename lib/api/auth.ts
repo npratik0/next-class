@@ -1,7 +1,7 @@
 // Actual backend API calls
 
-import axios from "./api/axios";
-import { API } from "./api/endpoints";
+import axios from "./axios";
+import { API } from "./endpoints";
 
 export const register = async(registerData: any) => {
     try {
