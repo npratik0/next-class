@@ -3,6 +3,7 @@
 "use server";
 import { success } from "zod";
 import {register} from "../api/auth";
+import { setAuthToken, setUserData } from "../cookie";
 
 export const handleRegister = async(formData: any) => {
     try{
